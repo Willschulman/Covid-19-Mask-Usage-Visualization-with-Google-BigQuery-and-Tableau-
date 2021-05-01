@@ -15,3 +15,25 @@ The New York Times also regularly collects county level COVID-19 data:
 https://www.nytimes.com/interactive/2021/us/covid-cases.html
 
 Both of these datasets are housed in google's data warehouse and both use the county fips code as their unique primary key. 
+
+Using SQL, I wrote this query to retrieve a dataset combining these three data sources.
+ 
+ ![Screen Shot 2021-05-01 at 12 10 47 PM](https://user-images.githubusercontent.com/75948597/116788259-a2da2400-aa76-11eb-8fca-cfb36e32e2fa.png)
+ ![Screen Shot 2021-05-01 at 12 13 14 PM](https://user-images.githubusercontent.com/75948597/116788277-aec5e600-aa76-11eb-829a-69afc732c208.png)
+
+
+As you can see, I converted the mask usage survey results into a single statistic which I call "mask score"
+ 
+ 
+I also wrote a second query to retrieve summary statistics 
+![Screen Shot 2021-05-01 at 12 19 42 PM](https://user-images.githubusercontent.com/75948597/116788751-6b20ab80-aa79-11eb-8734-91b7652ef297.png)
+![Screen Shot 2021-05-01 at 12 52 45 PM](https://user-images.githubusercontent.com/75948597/116789305-37935080-aa7c-11eb-9120-ddb3d4874596.png)
+
+
+ ![Screen Shot 2021-05-01 at 12 23 15 PM](https://user-images.githubusercontent.com/75948597/116788601-8ccd6300-aa78-11eb-8b2f-2ea9cda22fbe.png)
+![Screen Shot 2021-05-01 at 12 22 25 PM](https://user-images.githubusercontent.com/75948597/116788602-8ccd6300-aa78-11eb-8dfd-67633ec4da83.png)
+
+and then used the p robability distrubution function in R in order to split the data into thirds to create 3 evenly distributed catagories of mask usage "high", "med", and "low".
+
+ 
+I used a case statement within my query to define those catagories, and then ran it to return the data needed for analysis.

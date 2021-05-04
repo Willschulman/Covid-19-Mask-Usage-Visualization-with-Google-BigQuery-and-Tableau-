@@ -65,6 +65,13 @@ Then I decided to visualize counties on a map and color code them based on which
 
 As you can see mask use is considerably stronger in the coastal areas than in the middle of the country.
 
+I then turned my attention to diversity. When I saw that the low and medium mask counties had a considerably higher white populaltion percentage, I knew I needed to find away to quantify diversity.
+
+<img width="354" alt="Screen Shot 2021-05-04 at 10 45 13 AM" src="https://user-images.githubusercontent.com/75948597/117022921-a4019000-acc6-11eb-8770-cd28e92a9193.png">
+
+In my day job working at a law firm, I've been tasked with measuring market concentration before and after a potential merger to assess its legality.
+We use a measure called the Herfindahl-Hirschman Index (HHI). The formula for HHI is HHI = S_1_^2+S_2_^2+S_3_^2+...S_n_^2 . Where S denotes a firm's market share. Since 
+
 
 
 

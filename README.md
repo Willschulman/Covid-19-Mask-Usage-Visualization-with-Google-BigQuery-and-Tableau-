@@ -37,5 +37,13 @@ Then I used the qnorm function in r to determine the 33.3 and 66.6 percentile ma
 I then took the percentintile markers and used a Case statement within my query to classify each county as "high", "med", or "low".
 ![Screen Shot 2021-05-01 at 12 54 31 PM](https://user-images.githubusercontent.com/75948597/116790864-b2f90000-aa84-11eb-933e-b579faf90f5f.png)
 
+I ran my query and returned the following table:
+![Screen Shot 2021-05-01 at 2 06 59 PM](https://user-images.githubusercontent.com/75948597/116820384-ccf91800-ab42-11eb-9016-a36f061edd75.png)
+
+Then I downloaded the data as a csv file and imported it into Tableau for vizualization and analysis.
+
+
+
+
 
  

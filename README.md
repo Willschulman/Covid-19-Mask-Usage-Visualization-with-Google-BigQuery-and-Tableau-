@@ -48,6 +48,23 @@ I began by examining the relationships between mask usage and several other vari
 
 <img width="582" alt="Screen Shot 2021-05-02 at 12 39 00 PM" src="https://user-images.githubusercontent.com/75948597/117016330-9812cf80-acc0-11eb-9567-b09f9754e372.png">
 
+I discovered that there was little to no relationship between income inequality, poverty or unemployment and mask usage.
+
+<img width="325" alt="Screen Shot 2021-05-04 at 10 08 57 AM" src="https://user-images.githubusercontent.com/75948597/117016900-2ab36e80-acc1-11eb-9839-ad88b1b57c24.png">
+<img width="231" alt="Screen Shot 2021-05-04 at 10 16 16 AM" src="https://user-images.githubusercontent.com/75948597/117017684-cba22980-acc1-11eb-9a4e-b0f598e9eebc.png">
+<img width="318" alt="Screen Shot 2021-05-04 at 10 09 06 AM" src="https://user-images.githubusercontent.com/75948597/117016944-343cd680-acc1-11eb-933d-c8d4aad362b2.png">
+
+I found weak to moderate relationships between median rent and median income and mask usage.
+
+<img width="323" alt="Screen Shot 2021-05-04 at 10 09 30 AM" src="https://user-images.githubusercontent.com/75948597/117018045-276cb280-acc2-11eb-9cb5-cd9dbb211cf9.png">
+<img width="319" alt="Screen Shot 2021-05-04 at 10 09 20 AM" src="https://user-images.githubusercontent.com/75948597/117018064-2a67a300-acc2-11eb-94e0-c6e0271e8114.png">
+
+Then I decided to visualize counties on a map and color code them based on which mask use catagory they fall into:
+
+<img width="1059" alt="Screen Shot 2021-05-04 at 10 22 41 AM" src="https://user-images.githubusercontent.com/75948597/117018858-e4f7a580-acc2-11eb-9a19-dbe1aa41a8ae.png">
+
+As you can see mask use is considerably stronger in the coastal areas than in the middle of the country.
+
 
 
 

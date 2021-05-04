@@ -42,6 +42,14 @@ I ran my query and returned the following table:
 
 Then I downloaded the data as a csv file and imported it into Tableau for vizualization and analysis.
 
+I began by examining the relationships between mask usage and several other variables related to income and employment. I did this by creating a parameter to allow easy adjustment between variables and a calculated field to implement the paremeter selection.
+
+<img width="538" alt="Screen Shot 2021-05-02 at 12 38 28 PM" src="https://user-images.githubusercontent.com/75948597/117016280-8b8e7700-acc0-11eb-9538-8ec675f2c79c.png">
+
+<img width="582" alt="Screen Shot 2021-05-02 at 12 39 00 PM" src="https://user-images.githubusercontent.com/75948597/117016330-9812cf80-acc0-11eb-9567-b09f9754e372.png">
+
+
+
 
 
 

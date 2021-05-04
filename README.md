@@ -70,7 +70,7 @@ I then turned my attention to diversity. When I saw that the low and medium mask
 <img width="354" alt="Screen Shot 2021-05-04 at 10 45 13 AM" src="https://user-images.githubusercontent.com/75948597/117022921-a4019000-acc6-11eb-8770-cd28e92a9193.png">
 
 In my day job working at a law firm, I've been tasked with measuring market concentration before and after a potential merger to assess its legality.
-We use a measure called the Herfindahl-Hirschman Index (HHI). The formula for HHI is HHI = S_1_^2+S_2_^2+S_3_^2+...S_n_^2 . Where S denotes a firm's market share. Since 
+We use a measure called the Herfindahl-Hirschman Index (HHI). The formula for HHI is HHI = S_1_^2+S_2_^2+S_3_^2+...S_n_^2 . Where S denotes a firm's market share. Each market share is the expressed as the percentage of total market revenue, and squaring each market share weights each firms market share to account for relative concentration. For example a market with one firm controlling 100% of the market share would have an HHI 100^2= 10,000 and while a market with two firms each controlling 50% would have an HHI of 50^2 + 50^2 = 5000 and so would be half as concentrated.
 
 
 

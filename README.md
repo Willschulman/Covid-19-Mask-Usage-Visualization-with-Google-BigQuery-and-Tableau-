@@ -72,6 +72,22 @@ I then turned my attention to diversity. When I saw that the low and medium mask
 In my day job working at a law firm, I've been tasked with measuring market concentration before and after a potential merger to assess its legality.
 We use a measure called the Herfindahl-Hirschman Index (HHI). The formula for HHI is HHI = S_1_^2+S_2_^2+S_3_^2+...S_n_^2 . Where S denotes a firm's market share. Each market share is the expressed as the percentage of total market revenue, and squaring each market share weights each firms market share to account for relative concentration. For example a market with one firm controlling 100% of the market share would have an HHI 100^2= 10,000 and while a market with two firms each controlling 50% would have an HHI of 50^2 + 50^2 = 5000 and so would be half as concentrated.
 
+I adapted this formula to create an index that conceptualized how concentrated one racial group was in each county, which I labeled diversity index. I created a calculated field with this formula.
+
+<img width="528" alt="Screen Shot 2021-05-07 at 9 46 06 AM" src="https://user-images.githubusercontent.com/75948597/117459949-f686ba80-af19-11eb-9d20-ac13028d73ee.png">
+
+I subtracted the index from one so that higher values are more diverse and not more concentrated in one race since that is what the formula measured. 
+
+As you can see, the the high mask areas tend to be more diverse and all of the most diverse areas are all high mask. 
+
+<img width="312" alt="Screen Shot 2021-05-07 at 9 53 58 AM" src="https://user-images.githubusercontent.com/75948597/117461056-25516080-af1b-11eb-8a2a-fda00e15a10c.png">
+
+I conducted exploratory data analysis on numerous other values, but did not find inferences significant enough to warrant space on the dashboard. My next project is to evaluate the relationship between mask wearing and COVID-19.
+
+You can view the completed dashboard here:
+
+https://public.tableau.com/profile/william.schulman#!/vizhome/PredictorsofCovid-19MaskWearing/Dashboard1
+
 
 
 
